@@ -29,7 +29,12 @@
 - ruby main.rb --help
 ## Full example
 
+```
 ruby main.rb --path=spec/fixtures --output=json -sqli -expo -xss
+```
+
 ## Tests
 
-- rspec
+```
+rspec
+```
