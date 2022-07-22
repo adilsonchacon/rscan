@@ -1,0 +1,12 @@
+package test
+
+import "fmt"
+
+func Alfa() string {
+	return fmt.Sprint("SELECT * FROM table")
+}
+
+func Beta() string {
+	return fmt.Sprint("SELECT * FROM table
+	WHERE column = \"X\"")
+}

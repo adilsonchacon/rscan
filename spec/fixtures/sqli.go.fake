@@ -1,0 +1,12 @@
+package test
+
+import "fmt"
+
+func Alfa(value string) string {
+	return fmt.Sprintf("SELECT * FROM table WHERE column = %s", value)
+}
+
+func Beta(value string) string {
+	return fmt.Sprintf("SELECT * FROM table
+	WHERE column = %s", value)
+}
